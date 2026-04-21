@@ -1,0 +1,35 @@
+```
+# Java/Maven specific
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Dependencies
+lib/
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+out/
+build/
+```
