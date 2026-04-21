@@ -1,0 +1,12 @@
+package com.takeout.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.takeout.entity.Dish;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 商品 Mapper 接口
+ */
+@Mapper
+public interface DishMapper extends BaseMapper<Dish> {
+}
